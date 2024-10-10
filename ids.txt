@@ -1,0 +1,29 @@
+15 Puzzle Problem using Iterative Deepening Search as following component
+1. We first call iterative deepening fuction that run till we find a solution 
+2. It calls Depth Limited Search for depth d
+3. In depth limited search for given depth d we explore all the node for our goal state if found we return path to it 
+4. Otherwise we return failure or cutoff if goal state is head of depth
+
+
+
+Instruction to run the progam - 
+
+In Command Line right 
+
+python ids.py
+
+[ you will be prompted to enter the 15 puzzle numbers] enter them you will get your results. 
+
+For example - 
+python breathfirst.py 
+
+initial configuration: 1 0 2 4 5 7 3 8 9 6 11 12 13 10 14 15
+
+Result = 
+{'Time Taken': 0.003003835678100586, 'Moves': ['R', 'D', 'L', 'D', 'D', 'R', 'R'], 'Number of Nodes expanded': 665, 'Memory Used': '20.0 KB'}
+
+Please Note- Python version in use is 3.12.5
+
+
+
+ ~ Saumya Chaudhary
